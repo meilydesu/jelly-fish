@@ -10,7 +10,7 @@ const dir = path.join(root, 'supabase', 'migrations');
 const files = fs.readdirSync(dir).filter((f) => /^\d+_.+\.sql$/.test(f)).sort();
 
 const header = `-- =====================================================================
--- Artist Café — FULL DATABASE SETUP (generated file — do not edit by hand)
+-- Artist Restuarant — FULL DATABASE SETUP (generated file — do not edit by hand)
 -- = every file in supabase/migrations/ joined in order.
 -- Paste the whole thing into Supabase -> SQL Editor and press Run.
 -- Safe to run again: it never overwrites data you already entered.
